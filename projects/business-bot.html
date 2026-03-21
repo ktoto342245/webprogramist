@@ -1,0 +1,198 @@
+ <!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram бот для бізнесу | WebDev</title>
+    <link rel="stylesheet" href="../style.css">
+	<link rel="icon" type="image/x-icon" class="programmer-icon" href="../emege.png">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <nav class="container">
+            <a href="../index.html" class="logo" data-lang-key="title">WebDev</a>
+            <ul class="nav-links">
+                <li><a href="../index.html" data-lang-key="nav_home">Головна</a></li>
+                <li><a href="../tex.html" data-lang-key="nav_skills">Навички</a></li>
+                <li><a href="../robota.html" data-lang-key="nav_projects">Проєкти</a></li>
+                <li><a href="../chena_and_usluga.html" data-lang-key="nav_prices">Ціни</a></li>
+                <li><a href="../svaz.html" data-lang-key="nav_contacts">Контакти</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button class="lang-current-btn" aria-haspopup="true">
+                    <span class="lang-current-text">UA</span>
+                    <svg class="lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L5 5L9 1" stroke="#a0a0a0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="lang-dropdown" role="menu">
+                    <button data-lang="uk" class="lang-btn" role="menuitem">UA (Українська)</button>
+                    <button data-lang="en" class="lang-btn" role="menuitem">EN (English)</button>
+                    <button data-lang="ru" class="lang-btn" role="menuitem">RU (Русский)</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="project-detail">
+        <div class="container">
+            <a href="../robota.html" class="back-button" data-lang-key="project_back_button">← Назад до проєктів</a>
+            
+            <div class="project-header">
+                <h1 data-lang-key="project_bot_h1">Telegram бот для бізнесу</h1>
+                <p style="font-size: 1.2rem; color: #a0a0a0;" data-lang-key="project_bot_subtitle">Автоматизація процесів та взаємодія з клієнтами</p>
+            </div>
+
+            <div class="project-gallery">
+                <div class="gallery-container">
+                    <!-- ЗАМІСТЬ path/to/your/imageX.jpg ВСТАВТЕ ШЛЯХИ ДО ВАШИХ ФОТОК -->
+                    <img src="../prodjeckt/bot.png" alt="Скріншот 1" class="gallery-image active">
+                    <img src="../prodjeckt/bots (1).png" alt="Скріншот 2" class="gallery-image">
+                    <img src="../prodjeckt/bots (2).png" alt="Скріншот 3" class="gallery-image">
+                    <img src="../prodjeckt/bots (3).png" alt="Скріншот 4" class="gallery-image">
+                    <img src="../prodjeckt/bots (4).png" alt="Скріншот 5" class="gallery-image">
+                    
+                    <button class="gallery-nav prev">‹</button>
+                    <button class="gallery-nav next">›</button>
+                    
+                    <div class="gallery-counter">
+                        <span class="current-slide">1</span> / <span class="total-slides">5</span>
+                    </div>
+                    
+                    <div class="gallery-indicators">
+                        <div class="indicator active" data-slide="0"></div>
+                        <div class="indicator" data-slide="1"></div>
+                        <div class="indicator" data-slide="2"></div>
+                        <div class="indicator" data-slide="3"></div>
+                        <div class="indicator" data-slide="4"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-description">
+                <h2 data-lang-key="project_about_h2">Про проєкт</h2>
+                <p data-lang-key="project_bot_about_p1">Розробив багатофункціонального Telegram бота для автоматизації бізнес-процесів середнього підприємства. Бот обробляє замовлення від клієнтів, надає автоматичні консультації, генерує звіти для менеджерів та інтегрується з існуючою CRM системою компанії.</p>
+                
+                <p data-lang-key="project_bot_about_p2">До впровадження бота, компанія витрачала багато часу на обробку рутинних запитів від клієнтів. Бот дозволив автоматизувати до 70% типових звернень, що значно знизило навантаження на менеджерів.</p>
+
+                <h2 data-lang-key="project_features_h2">Основні можливості</h2>
+                <ul class="features-list">
+                    <li data-lang-key="project_bot_li1"><strong>Прийом замовлень</strong> - клієнти можуть оформити замовлення безпосередньо в боті з вибором товарів/послуг</li>
+                    <li data-lang-key="project_bot_li2"><strong>Система сповіщень</strong> - менеджери отримують миттєві повідомлення про нові замовлення</li>
+                    <li data-lang-key="project_bot_li3"><strong>Система оплати</strong> - підтримка оплати через Telegram Payments та LiqPay</li>
+                    <li data-lang-key="project_bot_li4"><strong>Підтримка груп</strong> - можливість додати бота в групу для командної роботи</li>
+                    <li data-lang-key="project_bot_li5"><strong>Історія замовлень</strong> - клієнти можуть переглядати свої попередні покупки</li>
+                </ul>
+
+                <h2 data-lang-key="project_bot_h2_clients">Функціонал для клієнтів</h2>
+                <p data-lang-key="project_bot_p_clients">Клієнти можуть:</p>
+                <ul class="features-list">
+                    <li data-lang-key="project_bot_clients_li1">Оформлювати замовлення в кілька кліків</li>
+                    <li data-lang-key="project_bot_clients_li2">Відстежувати статус доставки</li>
+                </ul>
+
+                <h2 data-lang-key="project_bot_h2_managers">Функціонал для менеджерів</h2>
+                <p data-lang-key="project_bot_p_managers">Адміністратори та менеджери мають окремий інтерфейс:</p>
+                <ul class="features-list">
+                    <li data-lang-key="project_bot_managers_li1">Перегляд та управління замовленнями</li>
+                    <li data-lang-key="project_bot_managers_li2">Управління каталогом товарів</li>
+                </ul>
+
+                <h2 data-lang-key="project_tech_h2">Технічна реалізація</h2>
+                <p data-lang-key="project_bot_tech_p">Бот написаний на Python для асинхронної роботи. Це забезпечує високу швидкість обробки запитів навіть при великій кількості користувачів одночасно.</p>
+
+                <div class="tech-stack">
+                    <h2 data-lang-key="title_skills">Технології</h2>
+                    <div class="tech-grid">
+                        <div class="tech-item">Python</div>
+                    </div>
+                </div>
+
+                <h2 data-lang-key="project_results_h2">Результати</h2>
+                <p data-lang-key="project_bot_results_p1">Після впровадження бота:</p>
+                <ul class="features-list">
+                    <li data-lang-key="project_bot_results_li1">Час обробки замовлення скоротився з 15 хвилин до 2 хвилин</li>
+                    <li data-lang-key="project_bot_results_li2">Навантаження на менеджерів знизилось на 70%</li>
+                    <li data-lang-key="project_bot_results_li3">Задоволеність клієнтів зросла (за опитуваннями)</li>
+                    <li data-lang-key="project_bot_results_li4">Компанія зекономила на додатковому персоналі</li>
+                </ul>
+
+                <p data-lang-key="project_bot_results_p2">Бот обробляє понад 1000 повідомлень на день та обслуговує базу з 5000+ активних користувачів.</p>
+
+                <div class="project-links">
+                    <a href="https://t.me/oplation_zacaz_plugens_bot" class="project-link" target="_blank" data-lang-key="project_bot_cta_try">
+                        💬 Спробувати бота
+                    </a>
+                    <a href="../svaz.html" class="project-link secondary" data-lang-key="a1_telegram_plugin">
+                        🚀 Замовити подібний
+                    </a>
+                    <a href="https://discord.gg/x2U3AxuxvG" class="project-link" data-lang-key="project_cta_discord">
+                    🌐 Відвідати Discord
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p data-lang-key="footer_copy">&copy; 2025 WebDev. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+    <script>
+        // Галерея
+        let currentSlide = 0;
+        const images = document.querySelectorAll('.gallery-image');
+        const indicators = document.querySelectorAll('.indicator');
+        const totalSlides = images.length;
+        const currentSlideText = document.querySelector('.current-slide');
+        const totalSlidesText = document.querySelector('.total-slides');
+
+        totalSlidesText.textContent = totalSlides;
+
+        function showSlide(index) {
+            images.forEach((img, i) => {
+                img.classList.toggle('active', i === index);
+            });
+            indicators.forEach((ind, i) => {
+                ind.classList.toggle('active', i === index);
+            });
+            currentSlideText.textContent = index + 1;
+        }
+
+        document.querySelector('.gallery-nav.prev').addEventListener('click', () => {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            showSlide(currentSlide);
+        });
+
+        document.querySelector('.gallery-nav.next').addEventListener('click', () => {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            showSlide(currentSlide);
+        });
+
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                currentSlide = index;
+                showSlide(currentSlide);
+            });
+        });
+
+        // Клавіатура
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') {
+                currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                showSlide(currentSlide);
+            } else if (e.key === 'ArrowRight') {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                showSlide(currentSlide);
+            }
+        });
+    </script>
+</body>
+
+</html>
+

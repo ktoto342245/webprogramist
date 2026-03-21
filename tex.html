@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навички та технології | WebDev</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" class="programmer-icon" href="emege.png">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo" data-lang-key="title">WebDev</a>
+            <ul class="nav-links">
+                <li><a href="index.html" data-lang-key="nav_home">Головна</a></li>
+                <li><a href="tex.html" data-lang-key="nav_skills">Навички</a></li>
+                <li><a href="robota.html" data-lang-key="nav_projects">Проєкти</a></li>
+                <li><a href="chena_and_usluga.html" data-lang-key="nav_prices">Ціни</a></li>
+                <li><a href="svaz.html" data-lang-key="nav_contacts">Контакти</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button class="lang-current-btn" aria-haspopup="true">
+                    <span class="lang-current-text">UA</span>
+                    <svg class="lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L5 5L9 1" stroke="#a0a0a0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="lang-dropdown" role="menu">
+                    <button data-lang="uk" class="lang-btn" role="menuitem">UA (Українська)</button>
+                    <button data-lang="en" class="lang-btn" role="menuitem">EN (English)</button>
+                    <button data-lang="ru" class="lang-btn" role="menuitem">RU (Русский)</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="skills_title">Мої навички та технології</h2>
+            
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">👨‍💻</div>
+                    <h3 data-lang-key="skills_card1_h3">VEB розробка</h3>
+                    <p data-lang-key="skills_card1_p">Node.js, Python, HTML/CSS</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🤖</div>
+                    <h3 data-lang-key="skills_card2_h3">Telegram боти</h3>
+                    <p data-lang-key="skills_card2_h3">Python, Node.js</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🔌</div>
+                    <h3 data-lang-key="skills_card3_h3">Розробка плагінів</h3>
+                    <p data-lang-key="skills_card3_h3">Java</p>
+                </div>
+            </div>
+
+            <div style="margin-top: 80px; text-align: center;">
+                <h2 class="section-title" data-lang-key="skills_tools_title">Інструменти розробки</h2>
+                <div class="tech-grid" style="max-width: 1000px; margin: 0 auto;">
+                    <div class="tech-item" data-lang-key="skills_tool1">VS Code</div>
+                    <div class="tech-item" data-lang-key="skills_tool2">Git</div>
+                    <div class="tech-item" data-lang-key="skills_tool3">IntelliJ IDEA</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p data-lang-key="footer_copy">2025 WebDev. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

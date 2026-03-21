@@ -1,0 +1,108 @@
+ <!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ціни та послуги | WebDev</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" class="programmer-icon" href="emege.png">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo" data-lang-key="title">WebDev</a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" data-lang-key="nav_home">Головна</a></li>
+                <li><a href="tex.html" data-lang-key="nav_skills">Навички</a></li>
+                <li><a href="robota.html" data-lang-key="nav_projects">Проєкти</a></li>
+                <li><a href="chena_and_usluga.html" data-lang-key="nav_prices">Ціни</a></li>
+                <li><a href="svaz.html" data-lang-key="nav_contacts">Контакти</a></li>
+            </ul>
+			<div class="lang-switcher">
+                <button class="lang-current-btn" aria-haspopup="true">
+                    <span class="lang-current-text">UA</span>
+                    <svg class="lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L5 5L9 1" stroke="#a0a0a0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="lang-dropdown" role="menu">
+                    <button data-lang="uk" class="lang-btn" role="menuitem">UA (Українська)</button>
+                    <button data-lang="en" class="lang-btn" role="menuitem">EN (English)</button>
+                    <button data-lang="ru" class="lang-btn" role="menuitem">RU (Русский)</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="title_prices">Ціни та послуги</h2>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <h3 data-lang-key="price1_h3">Telegram бот</h3>
+                    <div class="price" data-lang-key="price1_price">
+                        від 100₴ до 800₴
+                        <span class="price-period" data-lang-key="price_project"> проєкт</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li data-lang-key="price1_li1">Статистика</li>
+                        <li data-lang-key="price1_li2">1 місяць підтримки</li>
+                    </ul>
+                    <a href="svaz.html" class="cta-button" style="width: 100%; text-align: center;" data-lang-key="price_order">Замовити</a>
+                </div>
+                
+                <div class="pricing-card">
+                    <h3 data-lang-key="price2_h3">Discord бот</h3>
+                    <div class="price" data-lang-key="price2_price">
+                        від 100₴ до 900₴
+                        <span class="price-period" data-lang-key="price_project"> проєкт</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li data-lang-key="price1_li1">Статистика</li>
+                        <li data-lang-key="price2_li2">2 місяця підтримки</li>
+                    </ul>
+                    <a href="svaz.html" class="cta-button" style="width: 100%; text-align: center;" data-lang-key="price_order">Замовити</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3 data-lang-key="skills_card3_h3">Розробка плагінів</h3>
+                    <div class="price" data-lang-key="price3_price">
+                        від 500₴ до 3000₴
+                        <span class="price-period" data-lang-key="price_project">проєкт</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li data-lang-key="price3_li1">Розробка кілько днів</li>
+                        <li data-lang-key="price3_li2">5 місяців підтримки</li>
+                    </ul>
+                    <a href="svaz.html" class="cta-button" style="width: 100%; text-align: center;" data-lang-key="price_order">Замовити</a>
+                </div>
+
+                <div class="pricing-card">
+                    <h3 data-lang-key="price4_h3">Веб разробка</h3>
+                    <div class="price" data-lang-key="price4_price">
+                        від 900₴ до 4500₴
+                        <span class="price-period" data-lang-key="price_project"> проєкт</span>
+                    </div>
+                    <ul class="pricing-features">
+                        <li data-lang-key="price3_li1">Розробка кілько днів</li>
+                        <li data-lang-key="price4_li2">1 рік підтримки</li>
+                    </ul>
+                    <a href="svaz.html" class="cta-button" style="width: 100%; text-align: center;" data-lang-key="price_order">Замовити</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p data-lang-key="footer_copy">&copy; 2025 WebDev. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

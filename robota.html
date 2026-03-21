@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мої проєкти | WebDev</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" class="programmer-icon" href="emege.png">
+</head>
+
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo" data-lang-key="title">WebDev</a>
+            <ul class="nav-links">
+                <li><a href="index.html" data-lang-key="nav_home">Головна</a></li>
+                <li><a href="tex.html" data-lang-key="nav_skills">Навички</a></li>
+                <li><a href="robota.html" data-lang-key="nav_projects">Проєкти</a></li>
+                <li><a href="chena_and_usluga.html" data-lang-key="nav_prices">Ціни</a></li>
+                <li><a href="svaz.html" data-lang-key="nav_contacts">Контакти</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button class="lang-current-btn" aria-haspopup="true">
+                    <span class="lang-current-text">UA</span>
+                    <svg class="lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L5 5L9 1" stroke="#a0a0a0" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+                <div class="lang-dropdown" role="menu">
+                    <button data-lang="uk" class="lang-btn" role="menuitem">UA (Українська)</button>
+                    <button data-lang="en" class="lang-btn" role="menuitem">EN (English)</button>
+                    <button data-lang="ru" class="lang-btn" role="menuitem">RU (Русский)</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="projects_title">Портфоліо проєктів</h2>
+            <div class="projects-grid">
+                <a href="projects/telegram-plugin.html" class="project-card">
+                    <div class="project-image">
+                        <img src="prodjeckt/plugin (1).jpg" alt="Плагін для Telegram">
+                    </div>
+                    <div class="project-content">
+                        <h3 data-lang-key="project1_h3">Плагін для Telegram ботів</h3>
+                        <p data-lang-key="project1_p">Модульна система плагінів...</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="projects/corporate-website.html" class="project-card">
+                    <div class="project-image">
+                        <img src="prodjeckt/veb (1).png" alt="Корпоративний веб-сайт">
+                    </div>
+                    <div class="project-content">
+                        <h3 data-lang-key="project2_h3">Корпоративний веб-сайт</h3>
+                        <p data-lang-key="project2_p">Сучасний багатосторінковий сайт...</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="projects/business-bot.html" class="project-card">
+                    <div class="project-image">
+                        <img src="prodjeckt/bot.png" alt="Telegram бот для бізнесу">
+                    </div>
+                    <div class="project-content">
+                        <h3 data-lang-key="project3_h3">Telegram бот для бізнесу</h3>
+                        <p data-lang-key="project3_p">Автоматизація бізнес-процесів...</p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p data-lang-key="footer_copy">&copy; 2025 WebDev. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти | WebDev</title>
+    <link rel="stylesheet" href="style.css">
+	<link rel="icon" type="image/x-icon" class="programmer-icon" href="emege.png">
+</head>
+<body>
+    <div class="particles" id="particles"></div>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo" data-lang-key="title">WebDev</a>
+            
+            <ul class="nav-links">
+                <li><a href="index.html" data-lang-key="nav_home">Головна</a></li>
+                <li><a href="tex.html" data-lang-key="nav_skills">Навички</a></li>
+                <li><a href="robota.html" data-lang-key="nav_projects">Проєкти</a></li>
+                <li><a href="chena_and_usluga.html" data-lang-key="nav_prices">Ціни</a></li>
+                <li><a href="svaz.html" data-lang-key="nav_contacts">Контакти</a></li>
+            </ul>
+			<div class="lang-switcher">
+                <button class="lang-current-btn" aria-haspopup="true">
+                    <span class="lang-current-text">UA</span>
+                    <svg class="lang-arrow" width="10" height="6" viewBox="0 0 10 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 1L5 5L9 1" stroke="#a0a0a0" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+                <div class="lang-dropdown" role="menu">
+                    <button data-lang="uk" class="lang-btn" role="menuitem">UA (Українська)</button>
+                    <button data-lang="en" class="lang-btn" role="menuitem">EN (English)</button>
+                    <button data-lang="ru" class="lang-btn" role="menuitem">RU (Русский)</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title" data-lang-key="contacts_title">Зв'язатися зі мною</h2>
+            
+            <div class="contact-content">
+                <p data-lang-key="contacts_p1">Маєте цікавий проєкт або пропозицію? Буду радий обговорити деталі та втілити ваші ідеї в реальність!</p>
+                <p data-lang-key="contacts_p2">Відповідаю протягом 24 годин. Працюю з клієнтами по всьому світу.</p>
+                
+                <div class="contact-links">
+                    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#sent?compose=GTvVlcSKhphdBmPKNGsscXVWQLgjckNGgsVQpxCLpVKLqMzQRPVQTkHcwBvRDhkRNJrTfqbjgNxfl" class="contact-link">
+                        📧 ktooooo121@gmail.com
+                    </a>
+                    <a href="https://t.me/Ua_ls2" class="contact-link" target="_blank">
+                        📱 Telegram
+                    </a>
+                    <a href="https://discord.gg/x2U3AxuxvG" class="contact-link" target="_blank">
+                        💼 Discord
+                    </a>
+                    <a href="https://t.me/Rexking6" class="contact-link" target="_blank">
+                        📱 Telegram bot
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p data-lang-key="footer_copy">&copy; 2025 WebDev. Всі права захищені.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
